@@ -4,11 +4,8 @@ import "../../globals.css"
 
 export default function Index() {
   return (
-    <View className="border p-4">
-      <Link href='/sign-in' className="font-rubik-extrabold">sign-in</Link>
-      <Link href='/explore'>explore</Link>
-      <Link href='/profile'>profile</Link>
-      <Link href='/properties/1'>property</Link>
+    <View className="flex justify-center items-center h-full">
+      <Text className="font-bold my-10 font-rubik text-3xl">Welcome to RealState</Text>
     </View>
   );
 }
