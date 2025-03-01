@@ -46,10 +46,10 @@ export default function Explore() {
         }
         ListHeaderComponent={
           <View className="px-5">
-            <View className="border flex flex-row items-center justify-between mt-5">
+            <View className="flex flex-row items-center justify-between mt-5">
               <TouchableOpacity 
                 onPress={()=>router.back()}
-                className="border flex flex-row bg-primary-200 rounded-full size-11 items-center justify-center">
+                className="flex flex-row bg-primary-200 rounded-full size-11 items-center justify-center">
                 <Image source={icons.backArrow} className="size-5"/>
                 
               </TouchableOpacity>

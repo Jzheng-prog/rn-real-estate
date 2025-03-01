@@ -48,10 +48,10 @@ const Profile = () => {
           </Text>
           <Image source={icons.bell} className='size-5'/>
         </View>
-        <View className='border flew-row justify-center flex mt-5'>
-          <View className='border flex flex-col items-center relative mt-5'>
+        <View className='flew-row justify-center flex mt-5'>
+          <View className='flex flex-col items-center relative mt-5'>
             <Image source={{uri:user?.avatar}} className='size-44 rounded-full'/>
-            <TouchableOpacity className='absolute border bottom-11 right-[100px]'>
+            <TouchableOpacity className='absolute bottom-11 right-[100px]'>
               <Image source={icons.edit} className='size-9'/>
             </TouchableOpacity>
             <Text className='text-2xl font-rubik-bold mt-2'>{user?.name}</Text>
@@ -60,12 +60,12 @@ const Profile = () => {
             <SettingsItem icon={icons.calendar} title='My Bookings'/>
             <SettingsItem icon={icons.wallet} title='Payments'/>
           </View>
-          <View className='border-primary-200 flex flex-col mt-10'>
+          <View className='flex flex-col mt-10'>
             {settings.slice(2).map((item,index)=>(
               <SettingsItem {...item} key={index}/>
             ))}
           </View>
-          <View className='border-primary-200 flex flex-col mt-10'>
+          <View className='flex flex-col mt-10'>
             <SettingsItem icon={icons.logout} title='Logout' textStyle='text-danger' showArrow={false} onPress={handleLogout}/>
           </View>
         </View>

@@ -15,11 +15,11 @@ const Search = () => {
         debouncedSearch(text)
     }
   return (
-    <View className='border flex flex-row items-center justify-between w-full px-4 rounded-lg bg-accent-100 mt-5 py-2'>
-      <View className='flex-1 flex flex-row items-center border justify-start z-50'>
-        <Image source={icons.search} className='size-5'/>
+    <View className='border border-gray-400 flex flex-row items-center justify-between w-full px-4 rounded-lg bg-accent-100 mt-5 py-2'>
+      <View className='flex-1 flex flex-row items-center justify-start z-50'>
+        <Image source={icons.search} className='size-5 mr-2'/>
         <TextInput 
-            className='border text-sm font-rubik text-black-300'
+            className='w-full text-sm font-rubik text-black-300'
             value={search}
             onChangeText={handleSearch}
             placeholder='Search'
