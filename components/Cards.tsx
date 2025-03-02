@@ -35,7 +35,7 @@ export const Card = ({onPress, item}:Props) => {
 }
 export const FeatureCard = ({onPress,item}:Props) => {
     return (
-      <TouchableOpacity className='flex flex-col items-start w-60 h-80 relative'>
+      <TouchableOpacity className='flex flex-col items-start w-60 h-80 relative' onPress={onPress}>
         <Image source={{uri:item.image}} className='size-full rounded-2xl'/>
         <Image source={images.cardGradient} className='size-full rounded-2xl absolute bottom-0'/>
         <View className='flex flex-row absolute bg-white/90 items-center px-3 py-1.5 rounded-full top-5 right-5'>

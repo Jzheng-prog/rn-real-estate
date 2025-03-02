@@ -122,3 +122,17 @@ export async function getProperties(
             return []
         }
 }
+
+export async function getPropertyByID({id}:{id:string}){
+    try {
+        const result = await databases.getDocument(
+            config.databasesId!,
+            config.propertiesCollectionId!,
+            id
+        )
+        return result;
+    } catch (error) {
+        console.log(error)
+        return []
+    }
+}
