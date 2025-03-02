@@ -19,7 +19,7 @@ A full-stack **React Native** application built with **Expo, NativeWind, and App
 
 # Card Details/ Search Page
 <img src=https://github.com/user-attachments/assets/998b8f29-8403-4639-ae9a-6c097c393226 width="300"/>
-<img src=https://github.com/user-attachments/assets/6ea6ab82-e59c-441d-97a6-bd55f9578265 width='30'/>
+<img src=https://github.com/user-attachments/assets/6ea6ab82-e59c-441d-97a6-bd55f9578265 width='300'/>
 
 # Profile
 <img src=https://github.com/user-attachments/assets/5cb40885-e4ac-4540-9c3f-3ffdcd7ab080 width='300'/>
