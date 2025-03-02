@@ -1,51 +1,50 @@
-# Welcome to your Expo app 👋
+# Full Stack(Real-Estate App)
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+A full-stack **React Native** application built with **Expo, NativeWind, and Appwrite**. This app includes features like google sign-in, real-estate browsing and filtering, and dynamic routing.
 
-1. Install dependencies
+## Tech Stack
 
-   ```bash
-   npm install
-   ```
+- **React Native**: For building the mobile app.
+- **Expo**: Tooling and workflow for building React Native apps.
+- **NativeWind**: Utility-first CSS styling for React Native apps.
+- **Appwrite**: Backend-as-a-Service for user authentication and data management.
 
-2. Start the app
+## Pages
+# Welcome/Home Screen
+<img src=https://github.com/user-attachments/assets/2a9376b3-2e5d-4785-9f60-504a18cece4a width="300"/>
+<img src=https://github.com/user-attachments/assets/d89cdf26-d247-428e-b394-058a759fde69 width="300"/>
 
-   ```bash
-    npx expo start
-   ```
 
-In the output, you'll find options to open the app in a
+# Card Details/ Search Page
+<img src=https://github.com/user-attachments/assets/998b8f29-8403-4639-ae9a-6c097c393226 width="300"/>
+<img src=https://github.com/user-attachments/assets/6ea6ab82-e59c-441d-97a6-bd55f9578265 width='30'/>
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+# Profile
+<img src=https://github.com/user-attachments/assets/5cb40885-e4ac-4540-9c3f-3ffdcd7ab080 width='300'/>
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+### Prerequisites
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+- Node.js (version 14 or higher)
+- Expo CLI
+- Appwrite Account for backend services
 
-## Learn more
+### Installation
 
-To learn more about developing your project with Expo, look at the following resources:
+1. Clone the repository
+2. npm install
+3. Set up backend prerequisite for database connection.
+4. Setup .env file
+EXPO_PUBLIC_APPWRITE_PROJECT=
+EXPO_PUBLIC_APPWRITE_ENDPOINT=
+EXPO_PUBLIC_APPWRITE_DATABASE_ID=
+EXPO_PUBLIC_APPWRITE_AGENTS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_GALLERIES_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_REVIEWS_COLLECTION_ID=
+EXPO_PUBLIC_APPWRITE_PROPERTIES_COLLECTION_ID=
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# rn-real-estate
+6. npx expo start -c
